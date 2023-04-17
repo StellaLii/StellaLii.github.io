@@ -30,6 +30,8 @@ The sharing economy has experienced significant growth in recent years, with pla
 
 ![Dataset](https://github.com/StellaLii/MarkDown-Photos/blob/master/Airbnb/Dataset.jpg)
 
+![Dataset](/picture/airbnb/dataset.jpg)
+
 ## 3 Data Science Pipline
 ![pipeline](https://github.com/StellaLii/MarkDown-Photos/blob/master/Airbnb/Pipeline.jpg)
 

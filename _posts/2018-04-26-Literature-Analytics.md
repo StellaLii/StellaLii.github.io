@@ -40,15 +40,16 @@ In order to archive it, we first check several fictions manually about the descr
 2. We search the sentences which contains the names extracted in the previous step and locate them.
 3. For each sentence located, we check the previous 5 sentences and the next 5 sentences and add all the sentences which describes the female figures in to the processing dataset. Here we judge whether a sentence is a description by check if there are certain keywords in this sentence. For third-person fictions, we will use “her”, “she”, and some words connecting with the woman figure like “woman”, “lady”, “ms”, etc. For first-person fictions, we will replace “her”, “she” with “I”, “me” and other similar terms.
 4. When we check all the sentences in a fiction, we will delete the repetitive sentences keep these sentences as the processing dataset.
+
 ### 3.3 Concept Frequency and Classification
 In this step we will use SPSS modeler to load the processing data generated in the previous step and perform the concept term frequency and concept classification on the processing data. Here words, especially nouns, with high frequency indicates the frequent topic or events happened in the fiction. We can generate important concepts from the processing data and these concepts will help to deepen our understanding of the fiction.
 
 Besides for the topic and events, the adjective and descriptive concepts with high frequency will indicates the potential feeling and attitude of authors upon the character. This will help to extract the writing characteristics from the text dataset.
+
 ### 3.4 Pos-Tagger
 In this step we will use python to identify the position information of all the words in the processing dataset. For example, whether the word is noun or verb, or comparative adjective or other kinds of words. After recognizing the word type, we will count the number of words with different word type. Since previous literature analysis research has shown the correlation between the frequency of different word pos-types and the quality of the works. So, the distribution for words of different pos-types will help us to evaluate the fictions and the patterns of these fictions in describing the female figures. Here we will use the pos_tag function in nltk package to perform this section.
 ### 3.5 Sentiment Analysis
 In this step we will use python to perform a sentiment analysis on the processing text data. In the fictions authors may indicates their attitudes and thoughts towards the characters by using words with sentiment. So, the sentiment analysis for the fiction text will reflect the authors’ opinions on the characteristics they constructed, which will help to deepen our sight into the fictions and our standing of the female figures in the fictions. Her we will use the sentiment intensity analyzer in the nltk package to perform this analysis and generate the positive and negative scores for all the sentences. Then we may check the sentiment for the whole text to understand it.
-
 
 ### 3.6 Clustering
 In this step we will apply the machine learning methods upon the processing data to generate potential clusters for the sentences dataset. Through this process, we want to find similar sentences clusters which may describe the same part of female figures and check their sizes and contents.
