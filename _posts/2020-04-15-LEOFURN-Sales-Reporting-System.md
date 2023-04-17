@@ -26,12 +26,12 @@ Users can view overall statistics, view & edit population, view & edit holiday, 
 
 ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.jpg)
 
+<img width="1650" alt="Interface" src="https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.jpg">
+
 ## Implementation
-|  Tool   | Application  |
-|  ----  | ----  |
-| Python Flask Framework  | The web framework used  |
-| phpMyAdmin  | The database used |
-| HTML, CSS  | Frontend Design |
+**Python Flask Framework:** The web framework used \
+**phpMyAdmin:** The database used \
+**HTML, CSS:**  Frontend Design
 
 ## Final Product
 <img width="1650" alt="Interface" src="https://github.gatech.edu/storage/user/40466/files/26fcb980-9f57-11eb-97ea-1cd61daafbd2">
