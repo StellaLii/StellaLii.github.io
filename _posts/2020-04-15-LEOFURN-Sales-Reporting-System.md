@@ -26,8 +26,6 @@ Users can view overall statistics, view & edit population, view & edit holiday, 
 
 ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.jpg)
 
-<img width="1650" alt="Interface" src="https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.jpg">
-
 ## Implementation
 **Python Flask Framework:** The web framework used \
 **phpMyAdmin:** The database used \
