@@ -3,7 +3,7 @@ layout:     post
 title:      A Data-Driven Analysis of Vancouver's Airbnb Dataset with BC Assessment, Cultural Spaces and Translink Datasets
 date:       2023-04-15
 author:     Jianan
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/post-airbnb.png
 catalog: true
 tags:
     - Python
