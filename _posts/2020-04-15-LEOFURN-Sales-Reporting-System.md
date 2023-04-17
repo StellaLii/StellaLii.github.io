@@ -22,9 +22,9 @@ Users can view overall statistics, view & edit population, view & edit holiday, 
 
 ## Database Design
 ### EER Diagram
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/2.png)
+![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/2.jgp)
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.png)
+![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.jgp)
 
 ## Implementation
 |  Tool   | Application  |
