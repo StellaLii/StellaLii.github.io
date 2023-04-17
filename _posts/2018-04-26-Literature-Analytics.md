@@ -3,7 +3,7 @@ layout:     post
 title:      Literature Analytics on Female Image in Works of American Chinese Authors
 date:       2018-04-26
 author:     Jianan
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/post-literature.jpg
 catalog: true
 tags:
     - SPSS

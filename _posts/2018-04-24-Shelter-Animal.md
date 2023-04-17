@@ -3,7 +3,7 @@ layout:     post
 title:      Shelter Animal Status Prediction
 date:       2018-04-24
 author:     Jianan
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/post-shelter.jpeg
 catalog: true
 tags:
     - R Studio

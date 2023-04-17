@@ -3,7 +3,7 @@ layout:     post
 title:      Database Implementation for Global Insurance Agency
 date:       2017-12-07
 author:     Jianan
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/post-database.jpg
 catalog: true
 tags:
     - Database

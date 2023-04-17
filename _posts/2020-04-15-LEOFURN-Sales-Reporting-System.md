@@ -3,7 +3,7 @@ layout:     post
 title:      Design Database for LEOFURN Sales Reporting System
 date:       2020-04-15
 author:     Jianan
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/post-ecommerce.jpg
 catalog: true
 tags:
     - Database

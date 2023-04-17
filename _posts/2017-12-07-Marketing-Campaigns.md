@@ -3,7 +3,7 @@ layout:     post
 title:      Marketing Campaigns of a Portuguese Banking Institution
 date:       2017-12-07
 author:     Jianan
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/post-banking.jpg
 catalog: true
 tags:
     - Tableau

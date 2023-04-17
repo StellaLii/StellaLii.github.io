@@ -4,7 +4,7 @@ title:      Studying the Association between Electricity generation sources and 
 subtitle: A Country Level Study
 date:       2018-04-23
 author:     Jianan
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/post-greenhouse.jpeg
 catalog: true
 tags:
     - Tableau
