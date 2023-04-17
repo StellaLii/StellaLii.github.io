@@ -10,9 +10,9 @@ baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 # github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
-sidebar: false                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Hi, I'm Stella, a Computer Science Master's candidate at Simon Fraser University with 3 years of experience as a Software Development Engineer in Test. I have a strong background in software development, data engineering, and project management. "
+# sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -68,18 +68,18 @@ service-worker: true
 
 
 # Friends
-# friends: [
-#     {
-#         title: "WY",
-#         href: "http://zhengwuyang.com"
-#     },{
-#         title: "简书·BY",
-#         href: "http://www.jianshu.com/u/e71990ada2fd"
-#     },{
-#         title: "Apple",
-#         href: "https://apple.com"
-#     },{
-#         title: "Apple Developer",
-#         href: "https://developer.apple.com/"
-#     }
-# ]
+friends: [
+    {
+        title: "LinkedIn",
+        href: "https://www.linkedin.com/in/jianan-li-690274b6/"
+    # },{
+    #     title: "简书·BY",
+    #     href: "http://www.jianshu.com/u/e71990ada2fd"
+    # },{
+    #     title: "Apple",
+    #     href: "https://apple.com"
+    # },{
+    #     title: "Apple Developer",
+    #     href: "https://developer.apple.com/"
+    }
+]
