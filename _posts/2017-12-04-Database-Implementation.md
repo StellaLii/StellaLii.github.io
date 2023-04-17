@@ -15,7 +15,8 @@ tags:
 Database Implementation for Global Insurance Agency project is to design a database in Oracle for agency to computerize all data relating to insurance policies and to calculate KPI for over 40 agencies and use SQL to test the rationality and integrity of the database and adjust the entity relationship diagram and relational model.
 
 # 2 Entity Relationship Diagram
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/1.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/1.png) -->
+![Kiku](/picture/Database/1.png)
 
 ## 2.1 Assumptions for Entity Relationship Diagram
 AgentAutoSoldD, AgentAutoSoldPremiumsD, and AutoCommisionD are descriptive attributes between AGENT and AUTOPOLICY AgentLifeSoldD, AgentLifeSoldPremiumsD.
@@ -29,19 +30,24 @@ ClientBeneficiaryD is a descriptive attribute between CLIENT and LIFEPOLICY.
 CarMakeD, CarModelD, CarRegistrationNoD, DriverDOBD, DriverLicenseNoD, DriverNameD, and DriverGenderD are descriptive attribute between AUTOPOLICY and CLIENT.
 
 ## 2.2 Data Dictionary for Entity Relationship Diagram
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/54.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/54.png)
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/55.png)
+![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/55.png) -->
+![Kiku](/picture/Database/54.png)
+![Kiku](/picture/Database/55.png)
 
 # 3 Physical Data Model 
 ## 3.1 Default Physical Data Model 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/2.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/2.png) -->
+![Kiku](/picture/Database/2.png)
 
 ## 3.2 Revised Physical Data Model
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/3.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/3.png) -->
+![Kiku](/picture/Database/3.png)
 
 ## 3.3 Normalized Physical Data Model
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/4.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/4.png) -->
+![Kiku](/picture/Database/4.png)
 
 ### Assumptions for Normalized Physical Data Model
 1. AgentLifeSoldD can be calculated by querying the number of life policy numbers with a particular AgentID
@@ -176,7 +182,7 @@ ALTER TABLE payment ADD CONSTRAINT payment_client_fk FOREIGN KEY ( client_client
 ALTER TABLE payment ADD CONSTRAINT payment_invoice_fk FOREIGN KEY ( invoice_invoiceid ) REFERENCES invoice ( invoiceid ) NOT DEFERRABLE;
 
 # 4 Table Structures
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/5.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/5.png)
 
 ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/6.png)
 
@@ -208,10 +214,27 @@ ALTER TABLE payment ADD CONSTRAINT payment_invoice_fk FOREIGN KEY ( invoice_invo
 
 ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/20.png)
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/21.png)
+![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/21.png) -->
+![Kiku](/picture/Database/5.png)
+![Kiku](/picture/Database/6.png)
+![Kiku](/picture/Database/7.png)
+![Kiku](/picture/Database/8.png)
+![Kiku](/picture/Database/9.png)
+![Kiku](/picture/Database/10.png)
+![Kiku](/picture/Database/11.png)
+![Kiku](/picture/Database/12.png)
+![Kiku](/picture/Database/13.png)
+![Kiku](/picture/Database/14.png)
+![Kiku](/picture/Database/15.png)
+![Kiku](/picture/Database/16.png)
+![Kiku](/picture/Database/17.png)
+![Kiku](/picture/Database/18.png)
+![Kiku](/picture/Database/19.png)
+![Kiku](/picture/Database/20.png)
+![Kiku](/picture/Database/21.png)
 
 # 5 Import Data into Insurance Agency Database
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/22.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/22.png)
 
 ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/23.png)
 
@@ -251,7 +274,28 @@ ALTER TABLE payment ADD CONSTRAINT payment_invoice_fk FOREIGN KEY ( invoice_invo
 
 ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/41.png)
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/42.png)
+![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/42.png) -->
+![Kiku](/picture/Database/22.png)
+![Kiku](/picture/Database/23.png)
+![Kiku](/picture/Database/24.png)
+![Kiku](/picture/Database/25.png)
+![Kiku](/picture/Database/26.png)
+![Kiku](/picture/Database/27.png)
+![Kiku](/picture/Database/28.png)
+![Kiku](/picture/Database/29.png)
+![Kiku](/picture/Database/30.png)
+![Kiku](/picture/Database/31.png)
+![Kiku](/picture/Database/32.png)
+![Kiku](/picture/Database/33.png)
+![Kiku](/picture/Database/34.png)
+![Kiku](/picture/Database/35.png)
+![Kiku](/picture/Database/36.png)
+![Kiku](/picture/Database/37.png)
+![Kiku](/picture/Database/38.png)
+![Kiku](/picture/Database/39.png)
+![Kiku](/picture/Database/40.png)
+![Kiku](/picture/Database/41.png)
+![Kiku](/picture/Database/42.png)
 
 # 6 Application
 10 SQL Queries using the Insurance Agency Database.
@@ -259,52 +303,63 @@ ALTER TABLE payment ADD CONSTRAINT payment_invoice_fk FOREIGN KEY ( invoice_invo
 ## List the clients’ names who buy life policies and their agent’s name.
 select CLIENTID, CLIENTFIRSTNAME|| ‘,’|| CLIENTMIDDLENAME || ‘,’|| CLIENTLASTNAME as client, LIFEPOLICYNUMBER, LIFEPOLICYSTATUS, AGENTID, AGENTFIRSTNAME|| ‘,’|| AGENTLASTNAME as agent from CLIENT, LIFEPOLICY, AGENT where CLIENT.CLIENTID = LIFEPOLICY. CLIENT_CLIENTID and AGENT.AGENTID = LIFEPOLICY. AGENT_AGENTID
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/43.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/43.png) -->
+![Kiku](/picture/Database/43.png)
 
 ## List the claim ID, amount and insurance company of auto policy.
 select CLAIMID, CLAIMAMOUNT, AUTOPOLICYPREMIUM, AUTOPOLICYSTATUS, COMPANYNAME, INSURANCECOSTREETADDRESS||’,’||INSURANCECOSTATEADDRESS as address, INSURANCECOPHONE from CLAIM, AUTOPOLICY, INSURANCECOMPANY where CLAIM. AUTOPOLICY_AUTOPOLICYNUMBER = AUTOPOLICY. AUTOPOLICYNUMBER and AUTOPOLICY. INSURANCECOMPANY_COMPANYNAME = INSURANCECOMPANY.COMPANYNAME
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/44.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/44.png) -->
+![Kiku](/picture/Database/44.png)
 
 ## List the client’s info and their payment type for any who bought a life policy.
 select CLIENTFIRSTNAME|| ‘,’|| CLIENTMIDDLENAME || ‘,’|| CLIENTLASTNAME as client, INVOICEAMOUNTDUE, LIFEPOLICYNUMBER, PAYMENTTYPE from CLIENT, INVOICE, LIFEPOLICY, PAYMENT where PAYMENT.CLIENT_CLIENTID = CLIENT.CLIENTID and PAYMENT.INVOICE_INVOICEID = INVOICE.INVOICEID and LIFEPOLICY.CLIENT_CLIENTID = CLIENT.CLIENTID
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/45.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/45.png) -->
+![Kiku](/picture/Database/45.png)
 
 ## List our client Ferris’s policy type and her insurance company.
 select CLIENTFIRSTNAME|| ‘,’|| CLIENTMIDDLENAME || ‘,’|| CLIENTLASTNAME as client, COMPANYNAME, LIFECHARGES_LIFEPOLICYTYPE from CLIENT, INSURANCECOMPANY, LIFEPOLICY where CLIENT. CLIENTID = LIFEPOLICY.CLIENT_CLIENTID and LIFEPOLICY.INSURANCECOMPANY_COMPANYNAME = INSURANCECOMPANY.COMPANYNAME and CLIENTFIRSTNAME = ‘Ferris’
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/46.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/46.png) -->
+![Kiku](/picture/Database/46.png)
 
 ## List the total number of clients and agents.
 select count(distinct CLIENTID) as number_of_clients, count(distinct AGENTID) as number_of_agents from CLIENT, AGENT
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/47.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/47.png) -->
+![Kiku](/picture/Database/47.png)
 
 ## List the clients’ payment.
 select CLIENTFIRSTNAME|| ‘,’|| CLIENTMIDDLENAME || ‘,’|| CLIENTLASTNAME as client, PAYMENTAMOUNT, PAYMENTTYPE from CLIENT, PAYMENT where CLIENT. CLIENTID = PAYMENT.CLIENT_CLIENTID order by PAYMENTAMOUNT
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/48.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/48.png) -->
+![Kiku](/picture/Database/48.png)
 
 ## List clients’ life policy balance.
 select CLIENTFIRSTNAME|| ‘,’|| CLIENTMIDDLENAME || ‘,’|| CLIENTLASTNAME as client, INVOICEAMOUNTDUE, PAYMENTAMOUNT, INVOICEAMOUNTDUE- PAYMENTAMOUNT as LifePolicyBalance from CLIENT, INVOICE, PAYMENT where INVOICE.INVOICEID = PAYMENT. INVOICE_INVOICEID and CLIENT.CLIENTID = PAYMENT. CLIENT_CLIENTID
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/49.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/49.png) -->
+![Kiku](/picture/Database/49.png)
 
 ## Compare Freddy Hodgon’s different auto policy premium.
 select AGENTFIRSTNAME|| ‘,’|| AGENTLASTNAME as agent, AUTOPOLICYPREMIUM from AGENT, AUTOPOLICY where AUTOPOLICY. AGENT_AGENTID = AGENT.AGENTID and AGENTFIRSTNAME = ‘Freddy’ and AGENTLASTNAME = ‘Hodgon’
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/50.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/50.png) -->
+![Kiku](/picture/Database/50.png)
 
 ## Compare clients who pay their invoice within one month.
 select CLIENT_CLIENTID, PAYMENTDATE, INVOICEDUEDATE_INVOICEDATE as INVOICEDATE, PAYMENTDATE-INVOICEDUEDATE_INVOICEDATE as PaymentPeriod from PAYMENT, INVOICE where PAYMENT.INVOICE_INVOICEID = INVOICE.INVOICEID and PAYMENTDATE-INVOICEDUEDATE_INVOICEDATE < 30
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/51.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/51.png) -->
+![Kiku](/picture/Database/51.png)
 
 ## List the total client number of every agent.
 select AGENTFIRSTNAME, AGENTLASTNAME, count() from AGENT, CLIENT_AGENT where AGENT.AGENTID = CLIENT_AGENT.AGENT_AGENTID group by AGENTFIRSTNAME, AGENTLASTNAME order by count()desc
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/52.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/52.png) -->
+![Kiku](/picture/Database/52.png)
 
 # 7 Screenshot of Insurance Agency APEX Database Completion
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/53.png)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/Database/53.png) -->
+![Kiku](/picture/Database/53.png)

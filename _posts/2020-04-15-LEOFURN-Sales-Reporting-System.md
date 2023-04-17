@@ -22,9 +22,11 @@ Users can view overall statistics, view & edit population, view & edit holiday, 
 
 ## Database Design
 ### EER Diagram
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/2.jpg)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/2.jpg) -->
+![Kiku](/picture/LEOFURN/2.jpg)
+![Kiku](/picture/LEOFURN/3.jpg)
 
-![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.jpg)
+<!-- ![Kiku](https://github.com/StellaLii/MarkDown-Photos/blob/master/LEOFURN/3.jpg) -->
 
 ## Implementation
 **Python Flask Framework:** The web framework used \
