@@ -78,6 +78,7 @@ We utilized the SHAP library to interpret the model output by displaying the con
 ## 6 Data Product
 <!-- ![Product Review](https://github.com/StellaLii/MarkDown-Photos/blob/master/Airbnb/Product.jpg) -->
 ![Product Review](/picture/airbnb/Product.jpg)
+![AWS](/picture/airbnb/AWS.jpg)
 
 
 
