@@ -46,4 +46,13 @@ All inconsistencies, unreasonable behavior, and drivers engagement cases will be
 ![UML](/picture/WorkingSample/NewIssues.jpg)
 
 ### 6 Grading for New Issues
-For new issues, we need to use our grading system to add metrics to each scenarios based on their types. The metrics will help us automatically test the software's performance.
+For new issues, we need to use our grading system to add metrics to each scenarios based on their types. The metrics will help us automatically test the software's performance.         
+**Nominal Evaluation**   
+Stopping simulation    
+SDC hard brake reaction point   
+Cut-in Evaluation   
+Tailgater reaction times   
+VRU react to the SDC   
+Exhibited reaction stopping simulations   
+Swerving model   
+Safety-related buffers   
